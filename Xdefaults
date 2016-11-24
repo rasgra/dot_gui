@@ -1,0 +1,32 @@
+Xcursor.theme:     whiteglass
+Xcursor.size:      24
+
+*VT100*foreground: white
+*VT100*background: black
+
+XTerm*.font:       -xos4-terminus-medium-r-normal--12-*-*-*-*-*-*-*
+XTerm*.boldFont:   -xos4-terminus-medium-r-normal--12-*-*-*-*-*-*-*
+XTerm*.utf8:       1
+XTerm*.toolBar:    false
+XTerm*.saveLines:  10000
+!XTerm*.visualBell:  true
+XTerm*.charClass:  33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+URxvt*.foreground:  white
+URxvt*.background:  black
+
+URxvt*.font:       -xos4-terminus-medium-r-normal--12-*-*-*-*-*-*-*
+URxvt*.boldFont:   -xos4-terminus-medium-r-normal--12-*-*-*-*-*-*-*
+
+URxvt*.fading:      50
+
+URxvt*.scrollBar:   False
+
+URxvt*.color12:      #5555ff
+
+! highlight and open urls
+URxvt*.urlLauncher: chromium-browser
+URxvt*.matcher.button: 1
+URxvt*.perl-ext-common: default,matcher,readline,keyboard-select,url-select
+URxvt*keysym.M-Escape: perl:keyboard-select:activate
+URxvt*keysym.M-u: perl:url-select:select_next
