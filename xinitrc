@@ -3,6 +3,7 @@
 # Use "User Defined Session" in GDM with this
 
 [[ -f $HOME/.Xdefaults ]] && xrdb -merge $HOME/.Xdefaults
+[[ -f $HOME/.Xdefaults.$HOSTNAME ]] && xrdb -merge $HOME/.Xdefaults.$HOSTNAME
 [[ -f $HOME/.Xdefaults.local ]] && xrdb -merge $HOME/.Xdefaults.local
 [[ -f $HOME/.Xresources ]] && xrdb -merge $HOME/.Xresources
 

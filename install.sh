@@ -8,6 +8,7 @@ source install-lib
 install_files=(
     "$HOME/.xinitrc:${reporoot}/xinitrc"
     "$HOME/.Xdefaults:${reporoot}/Xdefaults"
+    "$HOME/.Xdefaults.zenbook:${reporoot}/Xdefaults.zenbook"
     "$HOME/.Xsession:${reporoot}/xinitrc"
     "$HOME/.urxvt:${reporoot}/urxvt"
     "$HOME/.i3:${reporoot}/i3"
