@@ -1,0 +1,4 @@
+XTerm*.font:       -xos4-terminus-medium-r-normal--20-*-*-*-*-*-*-*
+XTerm*.boldFont:   -xos4-terminus-medium-r-normal--20-*-*-*-*-*-*-*
+URxvt*.font:       -xos4-terminus-medium-r-normal--20-*-*-*-*-*-*-*
+URxvt*.boldFont:   -xos4-terminus-medium-r-normal--20-*-*-*-*-*-*-*
