@@ -69,7 +69,7 @@ bindsym $mod+Shift+v split h
 bindsym $mod+v split v
 
 # take a screenshoot
-bindsym $mod+p exec "scrot ~/Pictures/Screenshot-%Y-%m-%d%H:%M:%S.png"
+bindsym $mod+p exec "scrot ~/Pictures/Screenshot-%Y-%m-%d_%H:%M:%S.png"
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen
