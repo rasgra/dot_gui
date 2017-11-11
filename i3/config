@@ -32,6 +32,7 @@ bindsym $mod+Shift+P exec i3lock -c 000000
 
 # move workspace
 bindsym $mod+x move workspace to output right
+bindsym $mod+m move workspace to output up
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
